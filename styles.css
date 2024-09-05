@@ -54,10 +54,36 @@ h1 {
   font-weight: 900;
 }
 
+
 .h2 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+}
+
+section {
+    text-align: center;
+    padding: 25px;
+}
+.rowboxes {
+   /* border: green solid 5px; */
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 45px;
+}
+
+.box-msg {
+  /*  border: red solid 5px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    border: #3882f6 solid 3px;
+    border-radius: 10%;
 }
 img {
   width: 60%;
@@ -97,3 +123,13 @@ h1, span {
     flex-shrink: 1;
 }
 
+.container {
+    display: flex;
+}
+
+.boxes > * {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border: 10px solid blue;
+}
