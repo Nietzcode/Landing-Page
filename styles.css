@@ -34,6 +34,11 @@ footer {
   align-self: flex-end;
 }
 
+.hlogo {
+    font-size: 24px;
+    color: #1F2937;
+}
+
 ul {
   list-style: none;
   display: flex;
@@ -129,8 +134,8 @@ h1, span {
 
 .boxes > * {
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border: 10px solid blue;
 }
 
@@ -152,4 +157,40 @@ h1, span {
     justify-content: flex-end;
     font-size: 24px;
     font-weight: 800;
+}
+
+.sign {
+    display: flex;
+    padding: 90px;
+    justify-content: center;
+}
+.container-blue {
+    display: flex;
+    justify-content: center;
+    border: #3882f6 solid 10px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: white;
+    padding: 50px;
+    gap: 2rem;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem
+}
+
+.right {
+    display: flex;
+    border: white solid 2px;
+    border-radius: 10%;
+    justify-content: flex-end;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px
 }
