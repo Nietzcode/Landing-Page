@@ -1,0 +1,63 @@
+header,
+footer {
+  background-color: #1F2937;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.home {
+  margin-right: 900px;
+  padding-left: 20px;
+}
+
+.top {
+  background-color: #1F2937;
+  margin: 0;
+  border: firebrick solid 5px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.hero {
+  font-size: 18px;
+  color: white;
+  align-self: flex-end;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  gap: 1rem;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 800;
+  padding: 32px;
+}
+
+img {
+  width: 30%;
+  display: block;
+  border: firebrick 5px solid;
+}
+
+
+.foot {
+    color: white;
+}
+
+button {
+    background-color: #3882f6;
+    color: white
+}
